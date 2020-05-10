@@ -11,8 +11,8 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 
-const app = express()
-const port = 3000
+const app = express();
+const port = 8080;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -47,7 +47,7 @@ app.get('/', (req, res) => res.send('Hello World! - start to develop'))
 
 
 var server = http.createServer(app);
-server.listen(process.env.PORT || port, () => console.log(`Example app listening on port ${port}!`))
+server.listen(process.env.PORT || port, () => console.log(`BridesArt app is running on port ${port}!`))
 server.on('error', onError);
 server.on('listening', onListening);
 
