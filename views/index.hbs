@@ -31,7 +31,7 @@
       <div class="navigation navigation-two">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html"><span class="lni-bulb"></span>{{sitelogo}}</a>
+                <a class="navbar-brand" href="index.html"><img src="/images/henna-2.png" style="width: 48px;" >Bridesart</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon"></span>
                     <span class="toggler-icon"></span>
@@ -700,7 +700,7 @@
                     </div>
                     <div class="col-md-12">
                       <div class="form-group">
-                        <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                        <input type="number" placeholder="Contact Number" id="mobilenumber" class="form-control" required data-error="Please enter your contact number" pattern="\d*" maxlength="10" onKeyPress="if(this.value.length>=10) return false;" >
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
@@ -711,7 +711,7 @@
                       </div>
                       <div class="submit-button">
                         <button class="btn btn-common btn-effect" id="submit" type="submit">Send Message</button>
-                        <div id="msgSubmit" class="h3 hidden"></div> 
+                        <div id="msgSubmit" class="h3 hidden mt-2"></div> 
                         <div class="clearfix"></div> 
                       </div>
                     </div>
