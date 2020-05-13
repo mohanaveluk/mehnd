@@ -1760,6 +1760,10 @@ footer .menu {
 .navbar-brand {
   font-size: 1.5rem !important;
 }
+
+.navbar a:visited{
+  color: #8e44ad;
+}
 .navbar-nav .nav-item a {
   font-size: 16px !important;
 }

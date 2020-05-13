@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Mehndi for Brides', sitelogo:'Brides Art' });
+  res.render('index', { title: 'Mehndi for Brides', sitelogo:'Bridesart' });
 });
 
 /* GET home page. */
