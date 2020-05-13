@@ -3,12 +3,12 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Brides Mehndi Art', sitelogo:'BridesArt' });
+  res.render('index', { title: 'Mehndi for Brides', sitelogo:'Brides Art' });
 });
 
 /* GET home page. */
 router.get('/index-1', function(req, res, next) {
-  res.render('index-1', { title: 'Express index file - 1' });
+  res.render('index-1', { title: 'Mehndi for Brides' });
 });
 
 
